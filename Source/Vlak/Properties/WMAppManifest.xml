@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Deployment xmlns="http://schemas.microsoft.com/windowsphone/2009/deployment" AppPlatformVersion="7.0">
+  <App xmlns="" ProductID="{2dad8b48-3c2a-4182-afe5-d6d306d1b964}" Title="Vlak" RuntimeType="XNA" Version="1.2.1.0" Genre="Apps.Games" Author="Martin Suchan"
+       Publisher="Martin Suchan" Description="Remake of the original snake-like puzzle game Vlak (Train).">
+    <IconPath IsRelative="true" IsResource="false">PhoneGameThumb.png</IconPath>
+    <Capabilities>
+    </Capabilities>
+    <Tasks>
+      <DefaultTask Name="_default" />
+    </Tasks>
+    <Tokens>
+      <PrimaryToken TokenID="VlakToken" TaskName="_default">
+        <TemplateType5>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Background.png</BackgroundImageURI>
+          <Count>0</Count>
+          <Title>Vlak</Title>
+        </TemplateType5>
+      </PrimaryToken>
+    </Tokens>
+  </App>
+</Deployment>
